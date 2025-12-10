@@ -31,7 +31,7 @@ class Crawler_Portal_Transparencia:
         
     def execute_crawler(self):
        self.entering_and_data_collection()
-       return self.browser.quit
+       return self.browser.quit()
        
     def get_path_to_save(self):
       self.folder_for_file = utils.get_path_to_file()
